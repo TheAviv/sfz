@@ -1,0 +1,17 @@
+<region> sample=samples/mandolin/mandolin_G3.wav lokey=0 hikey=A3 pitch_keycenter=G3
+<region> sample=samples/mandolin/mandolin_A3#.wav lokey=A#3 hikey=C4 pitch_keycenter=A#3
+
+<region> sample=samples/mandolin/mandolin_C4#.wav lokey=C#4 hikey=D#4 pitch_keycenter=C#4
+<region> sample=samples/mandolin/mandolin_E4.wav lokey=E4 hikey=F#4 pitch_keycenter=E4
+<region> sample=samples/mandolin/mandolin_G4.wav lokey=G4 hikey=A4 pitch_keycenter=G4
+<region> sample=samples/mandolin/mandolin_A4#.wav lokey=A#4 hikey=B4 pitch_keycenter=A#4
+
+<region> sample=samples/mandolin/mandolin_C5.wav lokey=C5 hikey=D5 pitch_keycenter=C5
+<region> sample=samples/mandolin/mandolin_D5#.wav lokey=D#5 hikey=F5 pitch_keycenter=D#5
+<region> sample=samples/mandolin/mandolin_F5#.wav lokey=F#5 hikey=G#5 pitch_keycenter=F#5
+<region> sample=samples/mandolin/mandolin_A5.wav lokey=A5 hikey=B5 pitch_keycenter=A5
+
+<region> sample=samples/mandolin/mandolin_C6.wav lokey=C6 hikey=D6 pitch_keycenter=C6
+<region> sample=samples/mandolin/mandolin_D6#.wav lokey=D#6 hikey=F6 pitch_keycenter=D#6
+<region> sample=samples/mandolin/mandolin_F6#.wav lokey=F#6 hikey=G#6 pitch_keycenter=F#6
+<region> sample=samples/mandolin/mandolin_A6.wav lokey=A6 hikey=127 pitch_keycenter=A6

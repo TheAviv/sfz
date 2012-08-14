@@ -1,0 +1,10 @@
+<region> sample=samples/toy_glockenspiel/glock_e5.wav count=1 lokey=124 hikey=127 pitch_keycenter=124
+<region> sample=samples/toy_glockenspiel/glock_d5.wav count=1 lokey=122 hikey=123 pitch_keycenter=122
+<region> sample=samples/toy_glockenspiel/glock_c5.wav count=1 lokey=120 hikey=121 pitch_keycenter=120
+<region> sample=samples/toy_glockenspiel/glock_b4.wav count=1 lokey=119 hikey=119 pitch_keycenter=119
+<region> sample=samples/toy_glockenspiel/glock_a4.wav count=1 lokey=117 hikey=118 pitch_keycenter=117
+<region> sample=samples/toy_glockenspiel/glock_g4.wav count=1 lokey=115 hikey=116 pitch_keycenter=115
+<region> sample=samples/toy_glockenspiel/glock_f#4.wav count=1 lokey=113 hikey=114 pitch_keycenter=114
+<region> sample=samples/toy_glockenspiel/glock_e4.wav count=1 lokey=112 hikey=112 pitch_keycenter=112
+<region> sample=samples/toy_glockenspiel/glock_d4.wav count=1 lokey=100 hikey=111 pitch_keycenter=110
+<region> sample=samples/toy_glockenspiel/glock_c#4.wav count=1 lokey=0 hikey=109 pitch_keycenter=109

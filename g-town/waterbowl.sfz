@@ -1,0 +1,7 @@
+<region> sample=samples/waterbowl/waterbowl01_C#.wav count=1 lokey=73 hikey=127 pitch_keycenter=73
+<region> sample=samples/waterbowl/waterbowl02_B.wav count=1 lokey=71 hikey=72 pitch_keycenter=71
+<region> sample=samples/waterbowl/waterbowl03_F.wav count=1 lokey=65 hikey=70 pitch_keycenter=65
+<region> sample=samples/waterbowl/waterbowl04_C.wav count=1 lokey=60 hikey=64 pitch_keycenter=60
+<region> sample=samples/waterbowl/waterbowl05_A#.wav count=1 lokey=58 hikey=59 pitch_keycenter=58
+<region> sample=samples/waterbowl/waterbowl06_G#.wav count=1 lokey=0 hikey=57 pitch_keycenter=56
+

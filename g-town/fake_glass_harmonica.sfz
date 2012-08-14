@@ -1,0 +1,13 @@
+<region> sample=samples/fake_glass_harmonica/glassF#5.wav lokey=F#5 hikey=127 pitch_keycenter=F#5
+<region> sample=samples/fake_glass_harmonica/glassF5.wav lokey=E5 hikey=F5 pitch_keycenter=F5
+<region> sample=samples/fake_glass_harmonica/glassE5.wav lokey=D#5 hikey=E5 pitch_keycenter=E5
+<region> sample=samples/fake_glass_harmonica/glassD#5.wav lokey=C#5 hikey=D#5 pitch_keycenter=D#5
+<region> sample=samples/fake_glass_harmonica/glassC5.wav lokey=A#4 hikey=C5 pitch_keycenter=C5
+<region> sample=samples/fake_glass_harmonica/glass_G4.wav lokey=G4 hikey=A4 pitch_keycenter=G4
+<region> sample=samples/fake_glass_harmonica/glassF#4.wav lokey=0 hikey=F#4 pitch_keycenter=F#4
+
+
+
+
+
+
