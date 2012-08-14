@@ -117,12 +117,12 @@ pitch_keycenter=b5
 <region>
 sample=Samples\Chorus\chorus-female-c6.wav
 lokey=c6
-hikey=c6
+hikey=127
 pitch_keycenter=c6
 
 <region>
 sample=Samples\Chorus\chorus-male-g2.wav
-lokey=g2
+lokey=1
 hikey=g2
 pitch_keycenter=g2
 

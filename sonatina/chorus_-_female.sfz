@@ -9,7 +9,7 @@ ampeg_release=1
 
 <region>
 sample=Samples\Chorus\chorus-female-g4.wav
-lokey=g4
+lokey=1
 hikey=g4
 pitch_keycenter=g4
 
@@ -112,5 +112,5 @@ pitch_keycenter=b5
 <region>
 sample=Samples\Chorus\chorus-female-c6.wav
 lokey=c6
-hikey=c6
+hikey=127
 pitch_keycenter=c6
