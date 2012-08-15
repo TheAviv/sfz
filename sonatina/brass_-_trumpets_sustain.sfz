@@ -17,7 +17,7 @@ cutoff=120
 
 <region>
 sample=Samples\Trumpets\trumpets-sus-e3.wav
-lokey=e3
+lokey=0
 hikey=f3
 pitch_keycenter=e3
 
@@ -94,5 +94,5 @@ pitch_keycenter=c#6
 <region>
 sample=Samples\Trumpets\trumpets-sus-e6.wav
 lokey=d#6
-hikey=e6
+hikey=127
 pitch_keycenter=e6

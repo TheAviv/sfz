@@ -11,7 +11,7 @@ lovel=80
 
 <region>
 sample=Samples\Grand Piano\piano-f-c1.wav
-lokey=c1
+lokey=0
 hikey=c#1
 pitch_keycenter=c1
 
@@ -360,6 +360,6 @@ pitch_keycenter=a7
 <region>
 sample=Samples\Grand Piano\piano-p-c8.wav
 lokey=b7
-hikey=c8
+hikey=128
 pitch_keycenter=c8
 

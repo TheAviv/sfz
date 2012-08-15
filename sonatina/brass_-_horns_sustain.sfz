@@ -16,7 +16,7 @@ cutoff=120
 
 <region>
 sample=Samples\Horns\horns-sus-e2.wav
-lokey=e2
+lokey=0
 hikey=f2
 pitch_keycenter=e2
 tune=11
@@ -79,5 +79,5 @@ tune=-8
 <region>
 sample=Samples\Horns\horns-sus-a#4.wav
 lokey=a4
-hikey=c5
+hikey=127
 pitch_keycenter=a#4

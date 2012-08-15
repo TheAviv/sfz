@@ -12,7 +12,7 @@ cutoff=120
 
 <region>
 sample=Samples\Bass Trombone\bass_trombone-e1.wav
-lokey=e1
+lokey=0
 hikey=f1
 pitch_keycenter=e1
 
@@ -91,5 +91,5 @@ pitch_keycenter=e4
 <region>
 sample=Samples\Bass Trombone\bass_trombone-g4.wav
 lokey=f#4
-hikey=g4
+hikey=127
 pitch_keycenter=g4

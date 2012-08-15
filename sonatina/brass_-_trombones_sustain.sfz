@@ -16,7 +16,7 @@ cutoff=120
 
 <region>
 sample=Samples\Trombones\trombones-sus-e2.wav
-lokey=e2
+lokey=0
 hikey=f2
 pitch_keycenter=e2
 
@@ -89,6 +89,6 @@ pitch_keycenter=c#5
 <region>
 sample=Samples\Trombones\trombones-sus-e5.wav
 lokey=d#5
-hikey=e5
+hikey=127
 pitch_keycenter=e5
 

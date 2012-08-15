@@ -12,7 +12,7 @@ fil_veltrack=11000
 
 <region>
 sample=Samples\Harp\harp-c2.wav
-lokey=c2
+lokey=0
 hikey=c#2
 tune=-16
 pitch_keycenter=c2
@@ -155,6 +155,6 @@ pitch_keycenter=a6
 <region>
 sample=Samples\Harp\harp-c7.wav
 lokey=b6
-hikey=c7
+hikey=127
 tune=-6
 pitch_keycenter=c7

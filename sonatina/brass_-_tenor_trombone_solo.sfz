@@ -12,7 +12,7 @@ cutoff=120
 
 <region>
 sample=Samples\Tenor Trombone\tenor_trombone-e2.wav
-lokey=e2
+lokey=0
 hikey=f2
 pitch_keycenter=e2
 
@@ -73,6 +73,6 @@ pitch_keycenter=g4
 <region>
 sample=Samples\Tenor Trombone\tenor_trombone-a#4.wav
 lokey=a4
-hikey=b4
+hikey=127
 pitch_keycenter=a#4
 tune=7
