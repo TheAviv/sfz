@@ -360,6 +360,6 @@ pitch_keycenter=a7
 <region>
 sample=Samples\Grand Piano\piano-p-c8.wav
 lokey=b7
-hikey=128
+hikey=127
 pitch_keycenter=c8
 
