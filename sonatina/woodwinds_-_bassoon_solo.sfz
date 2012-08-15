@@ -12,7 +12,7 @@ cutoff=120
 
 <region>
 sample=Samples\Bassoon\bassoon-a#1.wav
-lokey=a#1
+lokey=0
 hikey=b1
 pitch_keycenter=a#1
 tune=-13
@@ -101,7 +101,7 @@ tune=-9
 <region>
 sample=Samples\Bassoon\bassoon-c#5.wav
 lokey=c5
-hikey=d5
+hikey=127
 pitch_keycenter=c#5
 tune=-10
 

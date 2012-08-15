@@ -9,7 +9,7 @@ ampeg_release=0.540
 
 <region>
 sample=Samples\Clarinet\clarinet-d3.wav
-lokey=d3
+lokey=0
 hikey=d#3
 pitch_keycenter=d3
 tune=3
@@ -86,6 +86,6 @@ pitch_keycenter=b5
 <region>
 sample=Samples\Clarinet\clarinet-d6.wav
 lokey=c#6
-hikey=d6
+hikey=127
 pitch_keycenter=d6
 tune=-5

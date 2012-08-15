@@ -12,7 +12,7 @@ ampeg_sustain=35
 
 <region>
 sample=Samples\Bassoons\bassoons-sus-a#1.wav
-lokey=a#1
+lokey=0
 hikey=b1
 pitch_keycenter=b1
 transpose=1
@@ -100,5 +100,5 @@ pitch_keycenter=c#5
 <region>
 sample=Samples\Bassoons\bassoons-sus-e5.wav
 lokey=d#5
-hikey=e5
+hikey=127
 pitch_keycenter=e5

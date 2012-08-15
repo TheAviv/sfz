@@ -12,7 +12,7 @@ ampeg_sustain=35
 
 <region>
 sample=Samples\Oboes\oboes-sus-a#3.wav
-lokey=a#3
+lokey=0
 hikey=b3
 pitch_keycenter=a#3
 
@@ -73,5 +73,5 @@ pitch_keycenter=c#6
 <region>
 sample=Samples\Oboes\oboes-sus-e6.wav
 lokey=d#6
-hikey=e6
+hikey=127
 pitch_keycenter=e6

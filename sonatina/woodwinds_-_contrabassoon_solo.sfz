@@ -9,7 +9,7 @@ ampeg_release=0.500
 
 <region>
 sample=Samples\Contrabassoon\contrabassoon-a#0.wav
-lokey=a#0
+lokey=0
 hikey=b0
 pitch_keycenter=a#0
 tune=-20
@@ -90,5 +90,5 @@ tune=-7
 <region>
 sample=Samples\Contrabassoon\contrabassoon-a#3.wav
 lokey=a3
-hikey=a#3
+hikey=127
 pitch_keycenter=a#3

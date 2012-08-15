@@ -11,7 +11,7 @@ cutoff=5000
 
 <region>
 sample=Samples\Oboe\oboe-a#3.wav
-lokey=a#3
+lokey=0
 hikey=b3
 pitch_keycenter=a#3
 tune=-8
@@ -74,6 +74,6 @@ tune=-22
 <region>
 sample=Samples\Oboe\oboe-c6.wav
 lokey=c6
-hikey=c6
+hikey=127
 pitch_keycenter=c6
 tune=-25

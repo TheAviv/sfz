@@ -9,7 +9,7 @@ ampeg_release=0.442
 
 <region>
 sample=Samples\Cor Anglais\cor_anglais-f3.wav
-lokey=f3
+lokey=0
 hikey=f#3
 pitch_keycenter=f3
 
@@ -61,6 +61,6 @@ pitch_keycenter=d5
 <region>
 sample=Samples\Cor Anglais\cor_anglais-f5.wav
 lokey=e5
-hikey=f5
+hikey=127
 pitch_keycenter=f5
 tune=-8

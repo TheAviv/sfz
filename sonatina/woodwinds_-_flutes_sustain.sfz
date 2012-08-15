@@ -14,7 +14,7 @@ ampeg_sustain=35
 
 <region>
 sample=Samples\Flutes\flutes-sus-c3.wav
-lokey=c3
+lokey=0
 hikey=c#3
 pitch_keycenter=c3
 
@@ -80,5 +80,5 @@ pitch_keycenter=f#5
 <region>
 sample=Samples\Flutes\flutes-sus-a5.wav
 lokey=g#5
-hikey=a5
+hikey=127
 pitch_keycenter=a5

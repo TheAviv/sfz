@@ -9,7 +9,7 @@ ampeg_release=0.450
 
 <region>
 sample=Samples\Alto Flute\alto_flute-g3.wav
-lokey=g3
+lokey=0
 hikey=g#3
 pitch_keycenter=g3
 
@@ -92,6 +92,6 @@ tune=-26
 <region>
 sample=Samples\Alto Flute\alto_flute-g6.wav
 lokey=f#6
-hikey=g6
+hikey=127
 pitch_keycenter=g6
 tune=-58

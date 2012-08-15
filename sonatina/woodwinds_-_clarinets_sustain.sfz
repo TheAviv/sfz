@@ -12,7 +12,7 @@ ampeg_sustain=35
 
 <region>
 sample=Samples\Clarinets\clarinets-sus-d3.wav
-lokey=d3
+lokey=0
 hikey=d#3
 pitch_keycenter=d3
 
@@ -85,5 +85,5 @@ pitch_keycenter=b5
 <region>
 sample=Samples\Clarinets\clarinets-sus-d6.wav
 lokey=c#6
-hikey=d6
+hikey=127
 pitch_keycenter=d6
