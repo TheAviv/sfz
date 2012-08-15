@@ -16,7 +16,7 @@ cutoff=1000
 
 <region>
 sample=Samples\Basses\basses-stc-rr1-c1.wav
-lokey=c1
+lokey=0
 hikey=c#1
 pitch_keycenter=c1
 
@@ -181,6 +181,6 @@ pitch_keycenter=a3
 <region>
 sample=Samples\Basses\basses-stc-rr2-c4.wav
 lokey=b3
-hikey=c4
+hikey=127
 pitch_keycenter=c4
 

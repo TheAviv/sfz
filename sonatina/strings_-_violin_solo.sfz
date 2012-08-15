@@ -9,7 +9,7 @@ ampeg_release=0.500
 
 <region>
 sample=Samples\Violin\violin-g3.wav
-lokey=g3
+lokey=0
 hikey=g#3
 pitch_keycenter=g3
 
@@ -97,6 +97,6 @@ tune=-40
 <region>
 sample=Samples\Violin\violin-a#6.wav
 lokey=a6
-hikey=c7
+hikey=127
 pitch_keycenter=a#6
 tune=-42

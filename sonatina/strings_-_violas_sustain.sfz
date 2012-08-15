@@ -9,7 +9,7 @@ ampeg_release=1.15
 
 <region>
 sample=Samples\Violas\violas-sus-c3.wav
-lokey=c3
+lokey=0
 hikey=c#3
 pitch_keycenter=c3
 
@@ -81,5 +81,5 @@ pitch_keycenter=a5
 <region>
 sample=Samples\Violas\violas-sus-c6.wav
 lokey=b5
-hikey=c6
+hikey=127
 pitch_keycenter=c6

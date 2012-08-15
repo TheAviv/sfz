@@ -9,7 +9,7 @@ ampeg_release=0.960
 
 <region>
 sample=Samples\Cello\cello-c2.wav
-lokey=c2
+lokey=0
 hikey=c#2
 pitch_keycenter=c2
 
@@ -99,5 +99,5 @@ pitch_keycenter=f#5
 <region>
 sample=Samples\Cello\cello-a5.wav
 lokey=g#5
-hikey=c6
+hikey=127
 pitch_keycenter=a5

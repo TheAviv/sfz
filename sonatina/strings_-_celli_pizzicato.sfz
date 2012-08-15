@@ -14,7 +14,7 @@ ampeg_vel2decay=10
 
 <region>
 sample=Samples\Celli\celli-piz-rr1-c2.wav
-lokey=c2
+lokey=0
 hikey=c#2
 pitch_keycenter=c2
 
@@ -174,5 +174,5 @@ pitch_keycenter=a4
 <region>
 sample=Samples\Celli\celli-piz-rr2-c5.wav
 lokey=b4
-hikey=c5
+hikey=127
 pitch_keycenter=c5

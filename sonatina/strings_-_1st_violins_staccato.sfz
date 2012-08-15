@@ -15,7 +15,7 @@ ampeg_vel2decay=10
 
 <region>
 sample=Samples\1st Violins\1st-violins-stc-rr1-g3.wav
-lokey=g3
+lokey=0
 hikey=g#3
 pitch_keycenter=g3
 
@@ -189,6 +189,6 @@ pitch_keycenter=g6
 <region>
 sample=Samples\1st Violins\1st-violins-stc-rr2-a#6.wav
 lokey=a6
-hikey=c7
+hikey=127
 pitch_keycenter=a#6
 

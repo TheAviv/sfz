@@ -11,7 +11,7 @@ ampeg_release=1.25
 
 <region>
 sample=Samples\Basses\basses-sus-c1.wav
-lokey=c1
+lokey=0
 hikey=c#1
 pitch_keycenter=c1
 tune=6
@@ -87,5 +87,5 @@ tune=4
 <region>
 sample=Samples\Basses\basses-sus-c4.wav
 lokey=b3
-hikey=c4
+hikey=127
 pitch_keycenter=c4
