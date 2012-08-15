@@ -11,7 +11,7 @@ lovel=80
 
 <region>
 sample=Samples\Percussion\timpani-f-lh-c1.wav
-lokey=c1
+lokey=0
 hikey=c#1
 pitch_keycenter=c1
 

@@ -16,7 +16,7 @@ ampeg_vel2decay=10
 
 <region>
 sample=Samples\Percussion\glockenspiel-c3.wav
-lokey=c3
+lokey=0
 hikey=c#3
 pitch_keycenter=c3
 
@@ -88,5 +88,5 @@ pitch_keycenter=a5
 <region>
 sample=Samples\Percussion\glockenspiel-c6.wav
 lokey=b5
-hikey=c6
+hikey=127
 pitch_keycenter=c6

@@ -15,7 +15,7 @@ ampeg_vel2decay=10
 
 <region>
 sample=Samples\Percussion\xylophone-g2.wav
-lokey=g2
+lokey=1
 hikey=g#2
 pitch_keycenter=g2
 
@@ -94,5 +94,5 @@ pitch_keycenter=g5
 <region>
 sample=Samples\Percussion\xylophone-a#5.wav
 lokey=a5
-hikey=a#5
+hikey=127
 pitch_keycenter=a#5
