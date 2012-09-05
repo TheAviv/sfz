@@ -3,6 +3,7 @@
 // ------------------------------
 //            Flute
 // ------------------------------
+// Samples are recorded one octave too high. g3.wav sounds like g4.
 
 <group>
 ampeg_release=0.425
@@ -10,85 +11,85 @@ ampeg_release=0.425
 <region>
 sample=Samples\Flute\flute-c3.wav
 lokey=0
-hikey=c#3
-pitch_keycenter=c3
+hikey=c#2
+pitch_keycenter=c2
 
 <region>
 sample=Samples\Flute\flute-d#3.wav
-lokey=d3
-hikey=e3
-pitch_keycenter=d#3
+lokey=d2
+hikey=e2
+pitch_keycenter=d#2
 
 <region>
 sample=Samples\Flute\flute-f#3.wav
-lokey=f3
-hikey=g3
-pitch_keycenter=f#3
+lokey=f2
+hikey=g2
+pitch_keycenter=f#2
 
 <region>
 sample=Samples\Flute\flute-a3.wav
-lokey=g#3
-hikey=a#3
-pitch_keycenter=a3
+lokey=g#2
+hikey=a#2
+pitch_keycenter=a2
 
 <region>
 sample=Samples\Flute\flute-c4.wav
-lokey=b3
-hikey=c#4
+lokey=b2
+hikey=c#3
 tune=-16
 
 <region>
 sample=Samples\Flute\flute-d#4.wav
-lokey=d4
-hikey=e4
-pitch_keycenter=d#4
+lokey=d3
+hikey=e3
+pitch_keycenter=d#3
 tune=-7
 
 <region>
 sample=Samples\Flute\flute-f#4.wav
-lokey=f4
-hikey=g4
-pitch_keycenter=f#4
+lokey=f3
+hikey=g3
+pitch_keycenter=f#3
 tune=-4
 
 <region>
 sample=Samples\Flute\flute-a4.wav
+lokey=g#3
+hikey=a#3
+pitch_keycenter=a3
+tune=-17
+
+<region>
+sample=Samples\Flute\flute-c5.wav
+lokey=b3
+hikey=c#4
+pitch_keycenter=c4
+tune=-4
+
+<region>
+sample=Samples\Flute\flute-d#5.wav
+lokey=d4
+hikey=e4
+pitch_keycenter=d#4
+tune=-8
+
+<region>
+sample=Samples\Flute\flute-f#5.wav
+lokey=f4
+hikey=g4
+pitch_keycenter=f#4
+tune=-16
+
+<region>
+sample=Samples\Flute\flute-a5.wav
 lokey=g#4
 hikey=a#4
 pitch_keycenter=a4
 tune=-17
 
 <region>
-sample=Samples\Flute\flute-c5.wav
-lokey=b4
-hikey=c#5
-pitch_keycenter=c5
-tune=-4
-
-<region>
-sample=Samples\Flute\flute-d#5.wav
-lokey=d5
-hikey=e5
-pitch_keycenter=d#5
-tune=-8
-
-<region>
-sample=Samples\Flute\flute-f#5.wav
-lokey=f5
-hikey=g5
-pitch_keycenter=f#5
-tune=-16
-
-<region>
-sample=Samples\Flute\flute-a5.wav
-lokey=g#5
-hikey=a#5
-pitch_keycenter=a5
-tune=-17
-
-<region>
 sample=Samples\Flute\flute-c6.wav
-lokey=b5
+lokey=b4
 hikey=127
-pitch_keycenter=c6
+pitch_keycenter=c5
 tune=-18
