@@ -1,0 +1,60 @@
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+By Nils Gey, 2013 (http://www.nilsgey.de)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+#TODO: check the wave field "Midi Note" somehow
+#TODO: check if a note is double. In this case there is most likely a detection error.
+
+import sys, os, argparse, re, subprocess
+from shutil import rmtree, copyfile
+
+#Commandline Utility
+if __name__ == "__main__":    
+    parser = argparse.ArgumentParser(description="Rename a directory of wave files automatically by analyzing its pitch and renaming it NNN.wav where NNN is the midi key number.")
+    parser.add_argument("path", help="A directory with waves files.")
+    #additional rubberband parameters
+    args = parser.parse_args()
+
+    #Commandline Arguments. Only the path is mandatory.
+    PATH = args.path #A directory, not a file
+    PATH = os.path.expanduser(PATH)
+    PATH = os.path.realpath(PATH)
+    NEWPATH = os.path.join(PATH, "detectAndRename-out", "")
+
+    existentfiles = [filename for filename in sorted(os.listdir(PATH)) if filename.endswith(".wav")]
+
+    if os.path.exists(NEWPATH):
+        rmtree(NEWPATH)
+    os.makedirs(NEWPATH)
+
+    def getMidiPitch(filepath):
+        cmd = subprocess.Popen('aubionotes -a -i ' + filepath, shell=True, stdout=subprocess.PIPE)
+        next(cmd.stdout) #the first line in aubionotes is not important here.
+        allLines = [line.split()[0] for line in cmd.stdout] # example line. the first value is the midi pitch:   69.000000  0.080000    2.997333
+        bytestring = max(set(allLines), key=allLines.count)
+        number = int(bytestring.decode().split(".")[0]) #just get the number. no float. no bytestring.
+        return number
+
+    for filename in existentfiles:
+        oldFilename = os.path.join(PATH, filename)
+        newFilename = os.path.join(NEWPATH, str(getMidiPitch(oldFilename)).zfill(3) + ".wav")
+        copyfile(oldFilename, newFilename)
+        print (newFilename, "( from", filename, ")")
+
+    sys.exit()

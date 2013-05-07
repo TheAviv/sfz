@@ -1,0 +1,22 @@
+//The overall principle is: Higher Key = Harder Sound or Higher Sound.
+
+<region> sample=samples/bassdrum/processed_bassdrum_hit_01.wav count=1 key=35
+
+<region> sample=samples/bassdrum/processed_bassdrum_hit_02.wav count=1 lovel=1 hivel=70 key=36 seq_length=2 seq_position=1
+<region> sample=samples/bassdrum/processed_bassdrum_hit_03.wav count=1 lovel=1 hivel=70 key=36 seq_length=2 seq_position=2
+<region> sample=samples/bassdrum/processed_bassdrum_hit_04.wav count=1 lovel=71 hivel=127 key=36 seq_length=3 seq_position=1
+<region> sample=samples/bassdrum/processed_bassdrum_hit_05.wav count=1 lovel=71 hivel=127 key=36 seq_length=3 seq_position=2
+<region> sample=samples/bassdrum/processed_bassdrum_hit_06.wav count=1 lovel=71 hivel=127 key=36 seq_length=3 seq_position=3
+
+<region> sample=samples/bassdrum/processed_bassdrum_hit_07.wav count=1 lovel=1 hivel=70 key=38 seq_length=2 seq_position=1
+<region> sample=samples/bassdrum/processed_bassdrum_hit_08.wav count=1 lovel=1 hivel=70 key=38 seq_length=2 seq_position=2
+<region> sample=samples/bassdrum/processed_bassdrum_hit_09.wav count=1 lovel=71 hivel=95 key=38 seq_length=3 seq_position=1
+<region> sample=samples/bassdrum/processed_bassdrum_hit_10.wav count=1 lovel=71 hivel=95 key=38 seq_length=3 seq_position=2
+<region> sample=samples/bassdrum/processed_bassdrum_hit_11.wav count=1 lovel=71 hivel=95 key=38 seq_length=3 seq_position=3
+<region> sample=samples/bassdrum/processed_bassdrum_hit_12.wav count=1 lovel=96 hivel=119 key=38 seq_length=2 seq_position=1
+<region> sample=samples/bassdrum/processed_bassdrum_hit_13.wav count=1 lovel=96 hivel=119 key=38 seq_length=2 seq_position=2
+<region> sample=samples/bassdrum/processed_bassdrum_hit_14.wav count=1 lovel=120 hivel=127 key=38
+
+<region> sample=samples/bassdrum/processed_bassdrum_roll_02.wav key=37 ampeg_release=2 //Fade out
+<region> sample=samples/bassdrum/processed_bassdrum_roll_03.wav key=39 ampeg_release=2
+<region> sample=samples/bassdrum/processed_bassdrum_roll_01.wav key=40 ampeg_release=2

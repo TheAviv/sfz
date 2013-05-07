@@ -1,25 +1,31 @@
+=solo-violin
+strings_-_violin_solo.sfz
+
+=solo-cello
+strings_-_cello_solo.sfz
+
+#The grouped versions are always: Sustain, Staccato, Pizzicat
 =violin
-strings_-_1st_violins_sustain.sfz #1
-strings_-_1st_violins_staccato.sfz #2
-strings_-_1st_violins_pizzicato.sfz #3
+strings_-_1st_violins_sustain.sfz
+strings_-_1st_violins_staccato.sfz
+strings_-_1st_violins_pizzicato.sfz
 
 =violinsecond
-strings_-_2nd_violins_sustain.sfz #4
-strings_-_2nd_violins_staccato.sfz #5
-strings_-_2nd_violins_pizzicato.sfz #6
+strings_-_2nd_violins_sustain.sfz
+strings_-_2nd_violins_staccato.sfz
+strings_-_2nd_violins_pizzicato.sfz
 
 =viola
-strings_-_violas_sustain.sfz #7
-strings_-_celli_staccato.sfz #8 fake
-strings_-_violas_pizzicato.sfz #9
+strings_-_violas_sustain.sfz
+strings_-_violas_sustain.sfz
+strings_-_violas_pizzicato.sfz
 
 =cello
-strings_-_celli_sustain.sfz #10
-strings_-_celli_staccato.sfz #11
-strings_-_celli_pizzicato.sfz #12
+strings_-_celli_sustain.sfz
+strings_-_celli_staccato.sfz
+strings_-_celli_pizzicato.sfz
 
 =bass
-strings_-_basses_sustain.sfz #13
-strings_-_basses_staccato.sfz #14
-strings_-_basses_pizzicato.sfz #15
-
+strings_-_basses_sustain.sfz
+strings_-_basses_staccato.sfz
+strings_-_basses_pizzicato.sfz

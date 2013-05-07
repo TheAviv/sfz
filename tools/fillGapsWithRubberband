@@ -1,0 +1,64 @@
+#! /usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+"""
+By Nils Gey, 2013 (http://www.nilsgey.de)
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
+
+import sys, os, argparse, re, subprocess
+from shutil import rmtree
+
+#Commandline Utility
+if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser(description="Point this script to a directory. It will see which wave files are in there with the names NNN.wav. Only number and lowercase extension. And then fill the gaps by rubberbanding the wave files. In the end you get 000.wav to 127.wav")
+    parser.add_argument("path", help="")
+    #additional rubberband parameters
+    args = parser.parse_args()
+
+    #Commandline Arguments. Only the path is mandatory.
+    PATH = args.path #A directory, not a file
+    PATH = os.path.expanduser(PATH)
+    PATH = os.path.realpath(PATH)
+    NEWPATH = os.path.join(PATH, "fillGapsWithRubberband-out", "")
+    rePattern = re.compile('[0-9][0-9][0-9]\.wav')
+    existentfiles = [filename for filename in sorted(os.listdir(PATH)) if re.match(rePattern, filename)]
+    endFiles = [str(x).zfill(3) + ".wav" for x in range(128)] #list with all wave file names
+
+    lastExistentNumber = None
+    lastExistentName = None
+    firstExistentName = existentfiles[0]
+    firstExistentNumber = endFiles.index(firstExistentName)
+
+    if os.path.exists(NEWPATH):
+        rmtree(NEWPATH)
+    os.makedirs(NEWPATH)
+
+    counter = 1
+    for number, name in enumerate(endFiles):
+        if name in existentfiles:
+            lastExistentName = name
+            lastExistentNumber = number
+        else:
+            if not lastExistentName is None: #0 is allowed.
+                inFile = os.path.join(PATH, lastExistentName)
+                outFile = os.path.join(NEWPATH, name)
+                subprocess.Popen(" ".join(["rubberband", "-p", str(number - lastExistentNumber), inFile, outFile]), shell=True)
+            else: #number from 000.wav to the first in the list
+                inFile = os.path.join(PATH, firstExistentName)
+                outFile = os.path.join(NEWPATH, name)
+                subprocess.Popen(" ".join(["rubberband", "-p", "-" + str(firstExistentNumber - number), inFile, outFile]), shell=True)
+    sys.exit()
