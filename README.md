@@ -12,3 +12,4 @@ sonatina:
 * extend range
 * remove transposition from some instruments
 * try out other ampeg_release=2 //Fade out settings
+* solo bassoon: LinuxSampler plays F8-G9 as C#5
